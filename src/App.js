@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Body1 from './components/Body1';
+import Body2 from './components/Body2';
+import Body3 from './components/Body3';
+import Body4 from './components/Body4';
+import Body5 from './components/Body5';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='overflow-hidden scroll-smooth'>
+      <Navbar/>
+      <Body1 />
+      <Body2 />
+      <Body3 />
+      <Body4 />
+      <Body5 />
+      <Footer />
     </div>
   );
 }
