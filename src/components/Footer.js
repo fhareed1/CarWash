@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='md:h-[500px] w-full h-auto bg-[#060F1C] pb-7 md:pb-0 overflow-hidden'>
+    <div className='md:h-[500px] w-full h-auto bg-[#060F1C] pb-7 md:pb-0 overflow-hidden scroll-smooth' id='contact'>
       <div className='text-white pt-20 text-4xl md:text-5xl font-bold space-y-5 text-center'>
         <h1>Ready to care for</h1>
         <h1>Your Car?</h1>

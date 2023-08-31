@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-[#E5E5E5] h-[80px] w-full fixed top-0 left-0 z-50 flex justify-between items-center border-b border-black overflow-hidden'>
+    <nav className='bg-[#E5E5E5] h-[80px] w-full fixed top-0 left-0 z-50 flex justify-between items-center border-b border-black overflow-hidden scroll-smooth'>
       {/* This div z*/}
       <div className='flex'>
         <img
@@ -31,16 +31,16 @@ const Navbar = () => {
       <div className='z-50'>
         <ul className='hidden md:flex  space-x-7'>
           <li>
-            <a href='/'>Home</a>
+            <a href='#home'>Home</a>
           </li>
           <li>
-            <a href='/service'>Service</a>
+            <a href='#service'>Service</a>
           </li>
           <li>
-            <a href='/about'>About</a>
+            <a href='#about'>About</a>
           </li>
           <li>
-            <a href='/contact'>Contact</a>
+            <a href='#contact'>Contact</a>
           </li>
         </ul>
       </div>
@@ -68,23 +68,26 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       {isNavOpen ? (
-        <div className={`md:hidden ${isNavOpen ? 'block' : 'hidden'} fixed top-[80px] left-0 text-center opacity-[0.97]  z-50 h-screen overflow-hidden bg-[#E5E5E5] w-full`}>
-        <ul className='space-y-40 pt-14'>
-          <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
-            <a href='/'>Home</a>
-          </li>
-          <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
-            <a href='/service'>Service</a>
-          </li>
-          <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
-            <a href='/about'>About</a>
-          </li>
-          <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
-            <a href='/contact'>Contact</a>
-          </li>
-        </ul>
-      </div>
-      
+        <div
+          className={`md:hidden ${
+            isNavOpen ? 'block' : 'hidden'
+          } fixed top-[80px] left-0 text-center opacity-[0.97]  z-50 h-screen overflow-hidden bg-[#E5E5E5] w-full scroll-smooth`}
+        >
+          <ul className='space-y-40 pt-14'>
+            <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
+              <a href='#home'>Home</a>
+            </li>
+            <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
+              <a href='#service'>Service</a>
+            </li>
+            <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
+              <a href='#about'>About</a>
+            </li>
+            <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
+              <a href='#contact'>Contact</a>
+            </li>
+          </ul>
+        </div>
       ) : null}
     </nav>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Body3 = () => {
   return (
-    <div className='h-auto md:h-screen bg-[#D3D3D3]  '>
+    <div className='h-auto md:h-screen bg-[#D3D3D3] scroll-smooth ' id='service'>
       <h1 className='flex justify-center pt-5 md:pt-28 text-4xl font-bold'>
         Our Services
       </h1>

@@ -3,7 +3,7 @@ import BeforeAfterSlider from './BeforeAfterSlide';
 
 const Body4 = () => {
   return (
-    <div className='bg-[#060F1C]'>
+    <div className='bg-[#060F1C] scroll-smooth' id='about'>
       <div className='block md:flex pt-20  '>
         <h1 className='text-white block pb-7 md:pb-0 font-semibold text-5xl justify-start md:flex text-center pl-0 md:pl-20'>
           Before & After

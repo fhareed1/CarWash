@@ -31,7 +31,7 @@ const Body5 = () => {
   };
 
   return (
-    <div className='bg-[#E5E5E5] h-auto md:pb-0 pb-32 md:h-screen '>
+    <div className='bg-[#E5E5E5] h-auto md:pb-0 pb-32 md:h-screen scroll-smooth '>
       <h1 className='font-bold text-4xl flex justify-center pt-20'>
         Our Happy Clients
       </h1>

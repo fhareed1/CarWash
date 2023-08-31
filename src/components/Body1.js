@@ -3,7 +3,7 @@ import { FaArrowRight, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 
 const Body1 = () => {
   return (
-    <div className='bg-[#E5E5E5] w-full h-full  overflow-hidden pt-[50px] md:pt-[80px] space-y-5 md:space-y-0   '>
+    <div className='bg-[#E5E5E5] w-full h-full  overflow-hidden pt-[50px] md:pt-[80px] space-y-5 md:space-y-0 scroll-smooth ' id='home'>
       <div className='flex flex-col justify-center md:flex-row   md:justify-between items-center space-y-10 md:space-y-0 md:h-auto  h-[400px]  '>
         {/* The First Writing here */}
         <div className=' flex md:pl-20 align-middle'>
