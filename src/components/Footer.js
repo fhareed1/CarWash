@@ -3,7 +3,10 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='md:h-[500px] w-full h-auto bg-[#060F1C] pb-7 md:pb-0 overflow-hidden scroll-smooth' id='contact'>
+    <div
+      className='md:h-[500px] w-full h-auto bg-[#060F1C] pb-7 md:pb-0 overflow-hidden scroll-smooth'
+      id='contact'
+    >
       <div className='text-white pt-20 text-4xl md:text-5xl font-bold space-y-5 text-center'>
         <h1>Ready to care for</h1>
         <h1>Your Car?</h1>
@@ -17,7 +20,7 @@ const Footer = () => {
             <img
               src={require('../assets/img/fillo-logo-white.png')}
               alt='logo'
-              className='w-max h-[70px] drop-shadow-2xl ml-16 to-white'
+              className='w-12 md:w-max h-[70px] drop-shadow-2xl ml-16 to-white'
             />
             <span className='text-white  font-bold pt-5  text-2xl '>
               filllo
@@ -48,7 +51,6 @@ const Footer = () => {
                   style={{
                     height: '20px',
                     width: '20px',
-                    
                   }}
                 />
               </button>

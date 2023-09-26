@@ -21,7 +21,7 @@ const Navbar = () => {
         <img
           src={require('../assets/img/filo-logo.png')}
           alt='logo'
-          className='w-max h-[50px] drop-shadow-2xl to-black'
+          className=' w-12 md:w-max  h-[50px] drop-shadow-2xl to-black'
         />
         <span className='text-black font-bold pt-2 text-2xl '>filllo</span>
       </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
             isNavOpen ? 'block' : 'hidden'
           } fixed top-[80px] left-0 text-center opacity-[0.97]  z-50 h-screen overflow-hidden bg-[#E5E5E5] w-full scroll-smooth`}
         >
-          <ul className='space-y-40 pt-14'>
+          <ul className='space-y-32 pt-14'>
             <li className='text-black hover:bg-gray-500 block px-3 py-2 rounded-md text-base font-medium'>
               <a href='#home'>Home</a>
             </li>
